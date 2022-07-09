@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 title: home
 permalink: /home
 ---
 
-Test
+TEST
