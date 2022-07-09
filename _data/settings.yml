@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'Home', url: 'home.html'}
-- {name: 'CV', file: '/daegyulim.pdf'}
+- {name: 'CV', file: '/assets/daegyulim.pdf'}
 - {name: 'About',   url: 'about.html'}
 - {name: 'Publication', url: 'publication.html'}
 # - {name: 'Writing', url: 'writing.html'}
