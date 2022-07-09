@@ -10,6 +10,7 @@ menu:
 - {name: 'Home', url: 'home.html'}
 - {name: 'CV', file: "daegyulim.pdf"}
 - {name: 'About',   url: 'about.html'}
+- {name: 'Publication', url: 'publication.html'}
 - {name: 'Writing', url: 'writing.html'}
 - {name: 'Contact', url: 'contact.html'}
 
