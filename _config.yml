@@ -19,7 +19,10 @@ highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+# Post options
 hide_related_posts: true
+hide_post_date: true
+hide_post_share: true
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Daegyu Lim'
