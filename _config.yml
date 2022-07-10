@@ -26,8 +26,8 @@ hide_post_share: true
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Daegyu Lim'
-description:	       'a Ph.d Candidate in SNU'
-# author:              ''
+description:	       ' a Ph.d Candidate at SNU majoring in Robotics & Machine Learing'
+# author:              'Daegyu Lim'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
