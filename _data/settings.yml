@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'About me',   url: 'about.html'}
+# - {name: 'About me',   url: 'about.html'}
 - {name: 'CV', file: '/daegyulim_cv.pdf'}
 - {name: 'Publications', url: 'publication.html'}
 - {name: 'Contact', url: 'contact.html'}
