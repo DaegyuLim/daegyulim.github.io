@@ -23,9 +23,9 @@ layout: default
 
 {% for post in paginator.posts %}
   <div class="posts-container">
-    <h2>
+    <h1 font-size: "1.5rem">
       <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    </h1>
     {% if post.image %}
       <div class="thumbnail-container">
         <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
