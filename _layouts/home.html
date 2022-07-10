@@ -24,7 +24,7 @@ layout: default
 {% for post in paginator.posts %}
   <div class="posts-container">
     <h2>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>. {{ post.author }}. {{ post.journal }}
+      {{ post.title }}. {{ post.author }}. {{ post.journal }}
     </h2>
     {% if post.image %}
       <div class="thumbnail-container">
