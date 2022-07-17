@@ -29,12 +29,7 @@ layout: default
   <div class="posts-container">
     <h3>
       {{ post.title }}. <br>
-      {% if post.author == 'Daegyu Lim' %}
-      	<a style="color:#333; text-decoration: none;">{{ post.author }}</a>
-      {% else %}
-      	<a style="color:#777; text-decoration: none;">{{ post.author }}</a>
-      {% endif %}
-      . <a style="color:#777; text-decoration: none;"> {{ post.journal }}.</a>
+      <a style="color:#777; text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
     </h3>
     {% if post.image %}
       <div class="thumbnail-container">
