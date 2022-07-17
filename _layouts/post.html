@@ -12,7 +12,13 @@ layout: default
 {% if page.image %}
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}
+<h4>
+  <a href="{{ site.github.url }}/assets/{{ page.pdf }}">[pdf]</a>
+</h4>
 <article>
+  <h3>
+    Abstract
+  </h3>
   {{ content }}
 </article>
 {% if site.hide_post_date != true %}
