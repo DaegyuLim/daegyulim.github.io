@@ -8,12 +8,16 @@ layout: default
 <h3>
   {{ page.author }}. {{ page.journal }}
 </h3>
-
+{% if page.image %}
+  <h4>
+    <a>{{page.commment}}<\a>
+  </h4>
+{% endif %}
 {% if page.image %}
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}
 <h4>
-  <a href="{{ site.github.url }}/assets/{{ page.pdf }}">[pdf]</a>
+  <a href="{{ site.github.url }}/assets/{{ page.pdf }}">[PDF]</a>
 </h4>
 <hr>
 <article>
