@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_sample
 title: "About the Author"
 author: "Daegyu Lim"
 categories: journal
