@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_sample
 title: "Text Formatting Examples"
 author: "Paul Le"
 categories: journal
