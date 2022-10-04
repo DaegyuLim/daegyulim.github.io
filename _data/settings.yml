@@ -11,6 +11,7 @@ menu:
 - {name: 'CV', url: 'daegyulim_cv.pdf'}
 - {name: 'Publications', url: 'publication.html'}
 - {name: 'Contact', url: 'contact.html'}
+- {name: 'News',   url: 'news.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
