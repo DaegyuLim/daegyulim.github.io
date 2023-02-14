@@ -18,7 +18,7 @@ layout: default
       {% endif %}
     {% endunless %}
     <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}. {{ post.journal }}.</a>
+      <p href="{{ site.github.url }}{{ post.url }}">{{ post.title }}. {{ post.journal }}.</p>
       <p style="text-decoration: none;">{{ post.author }}.</p>
       <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} </span></p>
     </li>
