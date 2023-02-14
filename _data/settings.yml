@@ -19,8 +19,8 @@ social:
 - {icon: 'twitter',    link: 'https://twitter.com/DaegyuLim'}
 - {icon: 'instagram',  link: 'https://www.instagram.com/robotanddg/'}
 - {icon: 'linkedin',   link: 'https://www.linkedin.com/in/daegyu-lim-b98a9b20b/'}
+- {icon: 'google',     link: 'https://scholar.google.com/citations?user=CTjBiRYAAAAJ&hl=en'}
 - {icon: 'envelope',   link: 'mailto:dgyo3784@snu.ac.kr'}
-- {icon: 'google', link: 'https://scholar.google.com/citations?user=CTjBiRYAAAAJ&hl=en'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}
 
 # Customize site text
