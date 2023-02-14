@@ -15,13 +15,13 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'instagram',  link: 'https://www.instagram.com/robotanddg/'}
-- {icon: 'square-youtube',  link: 'https://www.youtube.com/channel/UCl0WmtUmHbrGu8enWfZC94A'}
-- {icon: 'linkedin',   link: 'https://www.linkedin.com/in/daegyu-lim-b98a9b20b/'}
-- {icon: 'google',     link: 'https://scholar.google.com/citations?user=CTjBiRYAAAAJ&hl=en'}
-- {icon: 'github',     link: 'https://www.github.com/DaegyuLim'}
-- {icon: 'twitter',    link: 'https://twitter.com/DaegyuLim'}
-- {icon: 'envelope',   link: 'mailto:dgyo3784@snu.ac.kr'}
+- {icon: 'fa-brands fa-instagram',  link: 'https://www.instagram.com/robotanddg/'}
+- {icon: 'fa-brands fa-youtube',  link: 'https://www.youtube.com/channel/UCl0WmtUmHbrGu8enWfZC94A'}
+- {icon: 'fa-brands fa-linkedin',   link: 'https://www.linkedin.com/in/daegyu-lim-b98a9b20b/'}
+- {icon: 'fa-brands fa-google',     link: 'https://scholar.google.com/citations?user=CTjBiRYAAAAJ&hl=en'}
+- {icon: 'fa-brands fa-github',     link: 'https://www.github.com/DaegyuLim'}
+- {icon: 'fa-brands fa-twitter',    link: 'https://twitter.com/DaegyuLim'}
+- {icon: 'fa fa-envelope',   link: 'mailto:dgyo3784@snu.ac.kr'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}
 
 # Customize site text
