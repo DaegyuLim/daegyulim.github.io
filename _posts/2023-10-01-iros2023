@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Foot Stepping Algorithm of Humanoids with Double Support Time Adjustment based on Capture Point Control"
+author: "Daegyu Lim, Myeong-Ju Kim, Junhyeok Cha, Donghyeon Kim, Jaeheung Park"
+journal: IROS 2023
+tags: [documentation,conference,icra]
+image: IROS2023_thumb.PNG
+pdf: IROS2023.pdf
+---
+The estimation of external joint torque and contact
+wrench is essential for achieving stable locomotion of
+humanoids and safety-oriented robots. Although the contact
+wrench on the foot of humanoids can be measured using
+a force-torque sensor (FTS), FTS increases the cost, inertia,
+complexity, and failure possibility of the system. This paper
+introduces a method for learning external joint torque solely
+using proprioceptive sensors (encoders and IMUs) for a floating
+base robot. For learning, the GRU network is used and random
+walking data is collected. Real robot experiments demonstrate
+that the network can estimate the external torque and contact
+wrench with significantly smaller errors compared to the
+model-based method, momentum observer (MOB) with friction
+modeling. The study also validates that the estimated contact
+wrench can be utilized for zero moment point (ZMP) feedback
+control, enabling stable walking. Moreover, even when the
+robot’s feet and the inertia of the upper body are changed, the
+trained network shows consistent performance with a modelbased
+calibration. This result demonstrates the possibility of
+removing FTS on the robot, which reduces the disadvantages
+of hardware sensors.
+
+- Supplimentary Video
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/PYtCBtyY9po/0.jpg)](http://www.youtube.com/watch?v=PYtCBtyY9po)
+
+
