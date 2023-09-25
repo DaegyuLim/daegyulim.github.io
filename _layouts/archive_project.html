@@ -9,10 +9,14 @@ layout: default
 
 <ul class="projects-container">
   {% for project in site.projects %}
-    <li itemscope>
+  <li itemscope>
+    <p TEST test </p></p>
+  </li>
+    
+    <!-- <li itemscope>
       <a href="{{ site.github.url }}{{ project.url }}">{{ project.title }}.</a> <br>
       <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ project.date | date: "%B %-d" }} </span></p>
-    </li>
+    </li> -->
   {% endfor %}
 
   {% for post in site.posts %}
