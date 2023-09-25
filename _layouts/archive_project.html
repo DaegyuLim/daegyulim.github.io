@@ -7,32 +7,10 @@ layout: default
 </h1>
 
 
-<ul class="projects-container">
+<div class="projects-container">
   {% for project in site.projects %}
-  <li itemscope>
-    <p TEST test </p></p>
-  </li>
-    
-    <!-- <li itemscope>
-      <a href="{{ site.github.url }}{{ project.url }}">{{ project.title }}.</a> <br>
-      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ project.date | date: "%B %-d" }} </span></p>
-    </li> -->
-  {% endfor %}
 
-  {% for post in site.posts %}
-  {% unless post.next %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-    {% endif %}
-  {% endunless %}
-  <li itemscope>
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}.</a> <br>
-    <a style="text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
-    <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} </span></p>
-  </li>
+    <p TEST test </p></p>
+
   {% endfor %}
-</ul>
+</div>
