@@ -1,5 +1,5 @@
 ---
 layout: archive_project
-title: Project
+title: Projects
 permalink: /project
 ---
