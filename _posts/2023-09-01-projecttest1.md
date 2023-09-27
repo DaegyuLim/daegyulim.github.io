@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: post_project
 type: project
-title: "Project test"
-author: "Daegyu Lim, Myeong-Ju Kim, Junhyeok Cha, Jaeheung Park"
-journal: arXiv (submitted to IJRR)
-tags: [documentation,journal,ijrr]
+title: "AVATAR XPRIZE COMPETITION"
+time: "01.2020 ~ 11.2022"
+member: "Daegyu Lim, Myeong-Ju Kim, Junhyeok Cha, Jaeheung Park"
+tags: [avatar, xprize, competition, teleoperation]
 image: IJRR2023_thumb.png
-pdf: IJRR2023.pdf
 ---
 TEST
 test

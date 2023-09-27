@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_project
 type: project
 title: "project 3"
 author: "Donghyeon Kim<sup>†</sup>, Daegyu Lim<sup>†</sup>, Jaeheung Park"
