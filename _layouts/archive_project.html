@@ -9,11 +9,26 @@ layout: default
 <ul class="posts-container">
   {% for post in site.posts %}
     {% if post.type == 'project'%}
-      <li itemscope>
+      <div class="posts-container">
+        <h3>
+          {{ post.title }}. <br>
+          <a style="color:#777; text-decoration: none;">[{{ post.time }}].</a>
+        </h3>
+        {% if post.image %}
+          <div class="thumbnail-container">
+            <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+          </div>
+        {% endif %}
+        <p>
+          {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+          <span class="post-date"> </span>
+        </p>
+      </div>
+      <!-- <li itemscope>
         <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}.</a> <br>
         <a style="text-decoration: none;">[{{ post.time }}].</a>
-        <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i>  </span></p>
-      </li>
+        <p class="post-date"><span>  </span></p>
+      </li> -->
     {% endif %}
   {% endfor %}
 </ul>
