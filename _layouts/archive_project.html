@@ -8,9 +8,11 @@ layout: default
 
 
 <p> TEST test TEST</p>
-{% for post in site.projects %}
-<p> TEST test </p>
-<div class="posts-container">
-  <p> TEST test </p>
-</div>
+{% for post in site.posts %}
+  {% if post.type == 'paper'%}
+    <p> TEST test </p>
+    <div class="posts-container">
+      <p> TEST test </p>
+    </div>
+  {% endif %}
 {% endfor %}
