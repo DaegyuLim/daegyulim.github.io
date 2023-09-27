@@ -7,12 +7,23 @@ layout: default
 </h1>
 
 
-<p> TEST test TEST</p>
-{% for post in site.posts %}
-  {% if post.type == 'paper'%}
-    <p> TEST test </p>
-    <div class="posts-container">
-      <p> TEST test </p>
-    </div>
-  {% endif %}
-{% endfor %}
+<ul class="posts-container">
+  {% for post in site.posts %}
+    {% if post.type == 'project'%}
+      {% unless post.next %}
+        <h3>{{ post.date | date: '%Y' }}</h3>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h3>{{ post.date | date: '%Y' }}</h3>
+        {% endif %}
+      {% endunless %}
+      <li itemscope>
+        <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}.</a> <br>
+        <a style="text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
+        <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d" }} </span></p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

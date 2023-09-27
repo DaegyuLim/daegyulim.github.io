@@ -26,21 +26,23 @@ layout: default
 </h1>
 
 {% for post in paginator.posts %}
-  <div class="posts-container">
-    <h3>
-      {{ post.title }}. <br>
-      <a style="color:#777; text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
-    </h3>
-    {% if post.image %}
-      <div class="thumbnail-container">
-        <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
-      </div>
-    {% endif %}
-    <p>
-      {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
-      <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
-    </p>
-  </div>
+  {% if post.type == 'paper'%}
+    <div class="posts-container">
+      <h3>
+        {{ post.title }}. <br>
+        <a style="color:#777; text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
+      </h3>
+      {% if post.image %}
+        <div class="thumbnail-container">
+          <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
+        </div>
+      {% endif %}
+      <p>
+        {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
+        <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }}</span>
+      </p>
+    </div>
+  {% endif %}
 {% endfor %}
 <!-- Pagination links -->
 <div class="pagination">
