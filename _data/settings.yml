@@ -10,7 +10,7 @@ menu:
 # - {name: 'About me',   url: 'about.html'}
 - {name: 'CV', url: './assets/daegyulim_cv.pdf'}
 - {name: 'Publications', url: 'publication.html'}
-- {name: 'Projects', url: 'project.html'}
+- {name: 'Projects', url: './menu/project.md'}
 - {name: 'Contact', url: 'contact.html'}
 - {name: 'News',   url: 'news.html'}
 
