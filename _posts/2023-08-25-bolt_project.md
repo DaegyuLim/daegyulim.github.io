@@ -5,7 +5,7 @@ title: "Bolt-10: Open source bipedal robot platform"
 time: "Mar. 2022 - "
 member: "Daegyu Lim, Junhyeok Cha, Jaeyong Shin, Sunghee Kim"
 tags: []
-image: Bolt_project_thumb.PNG
+image: Bolt_project_thumb.png
 ---
 ## GOAL
 This project is
