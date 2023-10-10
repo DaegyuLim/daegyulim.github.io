@@ -8,7 +8,12 @@ tags: []
 image: Bolt_project_thumb.png
 ---
 ## GOAL
-This project is
+The goal of this project is the development of an open-source bipedal platform to foster research and education on the bipedal walking algorithm.
+This project is based on the existing open-source bipedal robot, BOLT, but we increase the degrees of freedom of BOLT from 6 to 10 resulting in BOLT-10.
+
+## BOLT-10
+![image](https://github.com/DaegyuLim/daegyulim.github.io/assets/34697279/22f9cc63-0d35-4f6b-b392-4988c26b86ff)
+
 
 
 
