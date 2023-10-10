@@ -12,6 +12,6 @@ test
 
 - Extension 1
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Z8Psm5RKFxk/0.jpg)](http://www.youtube.com/watch?v=Z8Psm5RKFxk)
-
+{% youtube Z8Psm5RKFxk %}
 - Extension 2
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ZpnMEjvGsaQ/0.jpg)](http://www.youtube.com/watch?v=ZpnMEjvGsaQ)
