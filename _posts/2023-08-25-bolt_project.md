@@ -7,8 +7,8 @@ member: "Daegyu Lim, Junhyeok Cha, Jaeyong Shin, Sunghee Kim"
 tags: []
 image: Bolt_project_thumb.PNG
 ---
-
-
+## GOAL
+This project is
 
 
 
