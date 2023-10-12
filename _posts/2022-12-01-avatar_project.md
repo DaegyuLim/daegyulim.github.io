@@ -11,7 +11,7 @@ image: avatar_project_thumb.png
 - Summary of TeamSNU in AVATAR XPRIZE
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/rehGcSoCrSU/0.jpg)](http://www.youtube.com/watch?v=rehGcSoCrSU)
 
-- Qualified Team Selection Video
+- Semifinal Team Selection Video
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/cGupiRsx3b4/0.jpg)](http://www.youtube.com/watch?v=cGupiRsx3b4)
 
 - SemiFinal Qualification Video: Pass-it-on Charades with Humanoid
