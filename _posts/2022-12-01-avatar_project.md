@@ -5,7 +5,7 @@ title: "AVATAR XPRIZE COMPETITION"
 time: "01.2020 ~ 11.2022"
 member: "TEAM SNU"
 tags: [avatar, xprize, competition, teleoperation]
-image: avatar_project_thumb.png
+image: avatar_project_thumb.jpg
 ---
 
 - Summary of TeamSNU in AVATAR XPRIZE
