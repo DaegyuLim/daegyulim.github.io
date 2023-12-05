@@ -2,7 +2,7 @@
 layout: post
 type: paper
 title: "MOB-Net: Limb-modularized Uncertainty Torque Learning of Humanoids for Sensorless External Torque Estimation"
-author: "Daegyu Lim, Myeong-Ju Kim, Junhyeok Cha, Jaeheung Park"
+author: "<strong>Daegyu Lim</strong>, Myeong-Ju Kim, Junhyeok Cha, Jaeheung Park"
 journal: arXiv (submitted to IJRR)
 tags: [documentation,journal,ijrr]
 image: IJRR2023_thumb.png
