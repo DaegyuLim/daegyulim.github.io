@@ -40,9 +40,9 @@ layout: default
   {% if post.type == 'paper'%}
     <div class="posts-container">
       <h3>
-        {{ post.title }}. <br>
-        <a style="color:#777;">{{ post.author }}. {{ post.journal }}.</a>
+        {{ post.title }}.
       </h3>
+        <a style="color:#777; "text-decoration: none;">{{ post.author }}. {{ post.journal }}.</a>
       {% if post.image %}
         <div class="thumbnail-container">
           <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
