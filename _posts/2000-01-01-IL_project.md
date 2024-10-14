@@ -9,7 +9,7 @@ image: IL_project_thumb.jpg
 ---
 
 - Results
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6vDKz0z9TbI&t=4s/0.jpg)](https://www.youtube.com/watch?v=6vDKz0z9TbI&t=4s)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6vDKz0z9TbI.jpg)](https://www.youtube.com/watch?v=6vDKz0z9TbI&t=4s)
 
 <!-- - Semifinal Team Selection Video
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/cGupiRsx3b4/0.jpg)](http://www.youtube.com/watch?v=cGupiRsx3b4)
