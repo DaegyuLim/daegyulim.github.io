@@ -4,8 +4,8 @@ type: project
 title: "Imitation Learning for Dexterous Dual Manipulation"
 time: "04.2024 ~ 07.2024"
 member: "Daegyu Lim, Hyeonjun Park"
-tags: [avatar, xprize, competition, teleoperation]
-image: avatar_project_thumb.jpg
+tags: [imitation learning, dual manipulation, generative AI, teleoperation]
+image: IL_project_thumb.jpg
 ---
 
 - Results
