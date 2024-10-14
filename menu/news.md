@@ -3,7 +3,7 @@ layout: page
 title: News!
 permalink: /news
 ---
-- (24.10.12) I will give a talk in the Frontier Session, ICCAS 2024! Let's disccuss about the future of AI-humanoids industry. 
+- I will give a talk in the <a href="https://2024.iccas.org/?page_id=4569">Frontier Session</a>, ICCAS 2024 (2pm. Oct 31)! Let's disccuss about the future of AI-humanoids industry. 
 - I will participate in the CWBB workshop, Humamoids 2023, Austin! Let's meet and talk about the development of safe humanoids.
 - Our paper has been accepted in IROS 2023. I will attend the conference and present the paper in person! (Proprioceptive External Torque Learning for Floating Base Robot and its Applications to Humanoid Locomotion).
 - Team SNU got 8th rank in the AVATAR XPRIZE FINALS!
