@@ -7,8 +7,8 @@ member: "TEAM SNU"
 tags: [avatar, xprize, competition, teleoperation]
 image: avatar_project_thumb.jpg
 ---
-###[System Paper](https://link.springer.com/article/10.1007/s12369-024-01152-y) 
-###[Motion Retargeting Paper](https://ieeexplore.ieee.org/abstract/document/9826256)
+[System Paper](https://link.springer.com/article/10.1007/s12369-024-01152-y) \\
+[Motion Retargeting Paper](https://ieeexplore.ieee.org/abstract/document/9826256)
 
 - Summary of TeamSNU in AVATAR XPRIZE
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/rehGcSoCrSU/0.jpg)](http://www.youtube.com/watch?v=rehGcSoCrSU)
