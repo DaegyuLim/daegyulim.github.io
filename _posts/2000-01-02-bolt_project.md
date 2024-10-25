@@ -7,6 +7,8 @@ member: "Daegyu Lim, Junhyeok Cha, Jaeyong Shin, Sunghee Kim"
 tags: []
 image: Bolt_project_thumb.png
 ---
+[Paper](http://dyros.snu.ac.kr/wp-content/uploads/2024/08/ICRA_workshop_paper.pdf)
+
 ## GOAL
 This project aims to develop an open-source bipedal platform to foster research and education on the bipedal walking algorithm.
 This project is based on the existing open-source bipedal robot, BOLT, but we increase the degrees of freedom of BOLT from 6 to 10 resulting in BOLT-10.
