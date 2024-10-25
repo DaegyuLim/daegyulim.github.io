@@ -8,8 +8,10 @@ tags: [imitation learning, dual manipulation, generative AI, teleoperation]
 image: IL_project_thumb.jpg
 ---
 
-- [Project Page](https://robrosinc.github.io/ACT-PTE/)
+
 
 - Results
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/phKeC_fZ2XQ/0.jpg)](https://www.youtube.com/watch?v=phKeC_fZ2XQ)
+
+- [ACT-PTE Project Page](https://robrosinc.github.io/ACT-PTE/)
 
